@@ -4,7 +4,15 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryLight</item>
+        <item name="colorOnPrimary">@color/colorSecondaryText</item>
+        <item name="colorPrimarySurface">@color/colorSecondaryText</item>
+
+        <item name="colorAccent">@color/colorSecondaryDark</item>
+
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryLight</item>
+        <item name="colorOnSecondary">@color/colorSecondaryText</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
