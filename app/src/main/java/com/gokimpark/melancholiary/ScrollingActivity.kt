@@ -7,9 +7,11 @@ import androidx.appcompat.app.AppCompatActivity
 import com.gokimpark.melancholiary.databinding.ActivityScrollingBinding
 import com.google.android.material.snackbar.Snackbar
 
+
 class ScrollingActivity : AppCompatActivity() {
 
     lateinit var binding: ActivityScrollingBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,11 +25,13 @@ class ScrollingActivity : AppCompatActivity() {
         }
     }
 
+
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         // Inflate the menu; this adds items to the action bar if it is present.
         menuInflater.inflate(R.menu.menu_scrolling, menu)
         return true
     }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         // Handle action bar item clicks here. The action bar will
@@ -39,4 +43,5 @@ class ScrollingActivity : AppCompatActivity() {
             else -> super.onOptionsItemSelected(item)
         }
     }
+
 }
