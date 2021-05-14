@@ -4,18 +4,18 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
-import com.gokimpark.melancholiary.databinding.ActivityScrollingBinding
+import com.gokimpark.melancholiary.databinding.ActivityDiaryListBinding
 import com.google.android.material.snackbar.Snackbar
 
 
-class ScrollingActivity : AppCompatActivity() {
+class DiaryListActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityScrollingBinding
+    lateinit var binding: ActivityDiaryListBinding
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityScrollingBinding.inflate(layoutInflater)
+        binding = ActivityDiaryListBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
 
